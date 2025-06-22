@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
+  <protNFe>
+    <infProt>
+      <nProt>886580431418662</nProt>
+      <digVal>abc123xyz==</digVal>
+      <dhRecbto>2025-01-03T22:29:19-03:00</dhRecbto>
+      <Id>Id886580431418662</Id>
+      <chNFe>11994903801144955407339462622745411810646965</chNFe>
+      <xMotivo>Autorizado o uso da NF-e</xMotivo>
+      <cStat>100</cStat>
+    </infProt>
+  </protNFe>
+  <NFe>
+    <infNFe Id="NFe11994903801144955407339462622745411810646965">
+      <ide>
+        <tpNF>1</tpNF>
+        <mod>55</mod>
+        <indPres>9</indPres>
+        <tpImp>1</tpImp>
+        <nNF>770871</nNF>
+        <cMunFG>3550308</cMunFG>
+        <procEmi>0</procEmi>
+        <finNFe>1</finNFe>
+        <dhEmi>2025-05-09T22:29:19-03:00</dhEmi>
+        <tpAmb>1</tpAmb>
+        <indFinal>1</indFinal>
+        <dhSaiEnt>2024-06-25T22:29:19-03:00</dhSaiEnt>
+        <idDest>1</idDest>
+        <tpEmis>1</tpEmis>
+        <cDV>4</cDV>
+        <cUF>35</cUF>
+        <serie>1</serie>
+        <natOp>VENDA TESTE</natOp>
+        <cNF>43803704</cNF>
+        <verProc>TesteGerador 1.0</verProc>
+      </ide>
+      <emit>
+        <xNome>Tecnologia e Sistemas ME</xNome>
+        <CNPJ>87040370294302</CNPJ>
+        <IE>051761712055</IE>
+        <IM>920832</IM>
+        <CRT>3</CRT>
+        <xFant>Filial 3</xFant>
+        <enderEmit>
+          <fone>1134777749</fone>
+          <UF>SP</UF>
+          <xPais>BRASIL</xPais>
+          <cPais>1058</cPais>
+          <xLgr>Rua do Comércio</xLgr>
+          <nro> 88</nro>
+          <xMun>SAO PAULO</xMun>
+          <cMun>3550308</cMun>
+          <xBairro>BAIRRO CENTRAL</xBairro>
+          <CEP>94771379</CEP>
+        </enderEmit>
+      </emit>
+      <dest>
+        <xNome>Juliana Campos</xNome>
+        <CNPJ>08491523230443</CNPJ>
+        <enderDest>
+          <fone>1134777749</fone>
+          <UF>SP</UF>
+          <xPais>BRASIL</xPais>
+          <cPais>1058</cPais>
+          <xLgr>Av. Paulista</xLgr>
+          <nro> 1500</nro>
+          <xMun>SAO PAULO</xMun>
+          <cMun>3550308</cMun>
+          <xBairro>JARDIM TESTE</xBairro>
+          <CEP>94771379</CEP>
+        </enderDest>
+        <indIEDest>9</indIEDest>
+        <email>juliana.campos@exemplo.com</email>
+      </dest>
+      <det>
+        <nItem>1</nItem>
+        <prod>
+          <cEAN>0541966974993</cEAN>
+          <cProd>4993763960</cProd>
+          <xProd>Aquisição de sistema ERP para filial zona sul</xProd>
+          <qCom>14.0000</qCom>
+          <vUnCom>2158.59000000</vUnCom>
+          <vProd>30220.26</vProd>
+          <uCom>UN</uCom>
+          <CFOP>5101</CFOP>
+          <uTrib>UN</uTrib>
+          <qTrib>14.0000</qTrib>
+          <vUnTrib>2158.59000000</vUnTrib>
+          <cEANTrib>0541966974993</cEANTrib>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS00>
+              <orig>0</orig>
+              <CST>00</CST>
+              <modBC>3</modBC>
+              <vBC>30220.26</vBC>
+              <pICMS>12.0000</pICMS>
+              <vICMS>3626.43</vICMS>
+            </ICMS00>
+          </ICMS>
+          <PIS>
+            <PISAliq>
+              <CST>01</CST>
+              <vBC>30220.26</vBC>
+              <pPIS>1.6500</pPIS>
+              <vPIS>498.63</vPIS>
+            </PISAliq>
+          </PIS>
+          <COFINS>
+            <COFINSAliq>
+              <CST>01</CST>
+              <vBC>30220.26</vBC>
+              <pCOFINS>7.6000</pCOFINS>
+              <vCOFINS>2296.74</vCOFINS>
+            </COFINSAliq>
+          </COFINS>
+        </imposto>
+      </det>
+      <total>
+        <ICMSTot>
+          <vProd>30220.26</vProd>
+          <vNF>30220.26</vNF>
+          <vICMS>3626.43</vICMS>
+          <vPIS>498.63</vPIS>
+          <vCOFINS>2296.74</vCOFINS>
+        </ICMSTot>
+      </total>
+      <transp>
+        <modFrete>0</modFrete>
+        <transporta>
+          <xNome>Tecnologia e Sistemas ME</xNome>
+          <CNPJ>87040370294302</CNPJ>
+          <IE>ISENTO</IE>
+          <xEnder>Rua do Comércio, 88</xEnder>
+          <xMun>SAO PAULO</xMun>
+          <UF>SP</UF>
+        </transporta>
+        <veicTransp>
+          <placa>ABC9388</placa>
+          <UF>SP</UF>
+        </veicTransp>
+        <vol>
+          <qVol>42</qVol>
+          <esp>CAIXA</esp>
+          <pesoL>362.547</pesoL>
+          <pesoB>392.821</pesoB>
+        </vol>
+      </transp>
+      <pag>
+        <detPag>
+          <tPag>01</tPag>
+          <vPag>30220.26</vPag>
+          <indPag>0</indPag>
+        </detPag>
+      </pag>
+    </infNFe>
+  </NFe>
+</nfeProc>

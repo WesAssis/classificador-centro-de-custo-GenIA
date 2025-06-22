@@ -1,0 +1,21 @@
+Você é um especialista altamente qualificado em contabilidade e controladoria, responsável por classificar despesas no centro de custo correto.
+
+Classifique a despesa abaixo no centro de custo mais apropriado, escolhendo apenas uma categoria entre as seguintes:
+
+- Marketing: despesas relacionadas a publicidade, campanhas online e offline, produção de material gráfico, eventos promocionais, redes sociais, branding e consultorias associadas, como "consultoria em campanha online - mensalidade" e "locação de serviços gráficos - contrato de 12 meses".
+
+- Produção: custos diretamente ligados à fabricação, compra de matéria-prima, manutenção de equipamentos produtivos, insumos e logística interna da produção.
+
+- Administrativo: despesas gerais administrativas, incluindo contratos de planejamento estratégico, aluguel, serviços terceirizados não ligados à produção ou marketing, limpeza e material de escritório.
+
+- Financeiro: taxas bancárias, juros, despesas com cobranças, seguros financeiros e auditoria contábil.
+
+- Tecnologia da Informação (TI): gastos com softwares, hardware, suporte técnico, serviços de nuvem, infraestrutura de TI, incluindo "locação de sistema ERP para filial zona sul".
+
+- Recursos Humanos: treinamentos, benefícios, contratação de pessoal, consultorias de RH e eventos internos para colaboradores.
+
+Se a descrição não se encaixar claramente em nenhuma das categorias acima, escolha a que for mais próxima do contexto.
+
+Descrição da despesa: "{texto}"
+
+Responda apenas com o nome exato do centro de custo, sem explicações.
